@@ -1,0 +1,176 @@
+[
+  {
+    "id": "01",
+    "chefPicture": "/images/chef1.jpg",
+    "chefName": "Maria Rodriguez",
+    "yearsOfExperience": 12,
+    "numberOfRecipes": 3,
+    "likes": 1200,
+    "bio": "Maria is known for her mastery of traditional Mexican flavors, combining classic techniques with modern twists.",
+    "recipes": [
+      {
+        "recipeName": "Tacos al Pastor",
+        "ingredients": ["Pork", "Pineapple", "Onion", "Cilantro", "Tortillas"],
+        "cookingMethod": "Marinate pork, grill with pineapple, and serve on tortillas with onions and cilantro.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Chiles Rellenos",
+        "ingredients": ["Poblano peppers", "Cheese", "Tomato sauce", "Eggs", "Onion"],
+        "cookingMethod": "Roast poblano peppers, stuff with cheese, coat in egg batter, and fry. Serve with tomato sauce.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Enchiladas Verdes",
+        "ingredients": ["Tortillas", "Chicken", "Tomatillos", "Cilantro", "Sour cream"],
+        "cookingMethod": "Fill tortillas with chicken, cover with green tomatillo sauce, and bake with sour cream topping.",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "chefPicture": "/images/chef2.jpg",
+    "chefName": "Sofia Mendez",
+    "yearsOfExperience": 8,
+    "numberOfRecipes": 3,
+    "likes": 950,
+    "bio": "Sofia specializes in vibrant street food, bringing the authentic taste of Mexico's markets to your table.",
+    "recipes": [
+      {
+        "recipeName": "Tostadas de Tinga",
+        "ingredients": ["Chicken", "Tostadas", "Onion", "Chipotle peppers", "Sour cream"],
+        "cookingMethod": "Cook chicken with onions and chipotle, serve on tostadas with sour cream and cheese.",
+        "rating": 4.6
+      },
+      {
+        "recipeName": "Elote",
+        "ingredients": ["Corn", "Mayo", "Chili powder", "Lime", "Cheese"],
+        "cookingMethod": "Grill corn and slather with mayo, sprinkle with cheese, chili powder, and a squeeze of lime.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Quesadillas",
+        "ingredients": ["Tortillas", "Cheese", "Mushrooms", "Poblano peppers", "Onions"],
+        "cookingMethod": "Fill tortillas with cheese and sautéed mushrooms and peppers, and cook until crispy.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "chefPicture": "/images/chef3.jpg",
+    "chefName": "Isabella Flores",
+    "yearsOfExperience": 15,
+    "numberOfRecipes": 3,
+    "likes": 1800,
+    "bio": "Isabella is a celebrated chef, known for her signature mole and dedication to preserving indigenous recipes.",
+    "recipes": [
+      {
+        "recipeName": "Mole Poblano",
+        "ingredients": ["Chocolate", "Chili peppers", "Chicken", "Garlic", "Spices"],
+        "cookingMethod": "Simmer chili peppers and spices, blend with chocolate, and cook with chicken.",
+        "rating": 4.9
+      },
+      {
+        "recipeName": "Tamales",
+        "ingredients": ["Corn masa", "Chicken", "Chili sauce", "Corn husks", "Cheese"],
+        "cookingMethod": "Wrap corn masa with chicken and chili sauce in corn husks, steam until cooked.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Sopes",
+        "ingredients": ["Masa dough", "Beans", "Cheese", "Sour cream", "Lettuce"],
+        "cookingMethod": "Shape masa into small rounds, fry, and top with beans, cheese, sour cream, and lettuce.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "chefPicture": "/images/chef4.jpg",
+    "chefName": "Luis Hernandez",
+    "yearsOfExperience": 10,
+    "numberOfRecipes": 3,
+    "likes": 1100,
+    "bio": "Luis is a seafood expert, combining fresh ingredients with bold Mexican spices to create unforgettable dishes.",
+    "recipes": [
+      {
+        "recipeName": "Ceviche",
+        "ingredients": ["Shrimp", "Lime", "Cilantro", "Onion", "Tomato"],
+        "cookingMethod": "Marinate shrimp in lime juice, mix with cilantro, onions, and tomatoes, and serve chilled.",
+        "rating": 4.9
+      },
+      {
+        "recipeName": "Camarones a la Diabla",
+        "ingredients": ["Shrimp", "Chili sauce", "Garlic", "Butter", "Lime"],
+        "cookingMethod": "Sauté shrimp in garlic and chili sauce, serve with a squeeze of lime.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Tacos de Pescado",
+        "ingredients": ["Fish", "Tortillas", "Cabbage", "Lime", "Sour cream"],
+        "cookingMethod": "Grill or fry fish, serve in tortillas with cabbage, sour cream, and lime.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "chefPicture": "/images/chef5.jpg",
+    "chefName": "Jorge Castillo",
+    "yearsOfExperience": 20,
+    "numberOfRecipes": 3,
+    "likes": 2500,
+    "bio": "With two decades of experience, Jorge excels in traditional Mexican cuisine, from tamales to chiles en nogada.",
+    "recipes": [
+      {
+        "recipeName": "Chiles en Nogada",
+        "ingredients": ["Poblano peppers", "Walnuts", "Pomegranate", "Meat", "Cream"],
+        "cookingMethod": "Stuff peppers with meat, cover with walnut sauce, and garnish with pomegranate seeds.",
+        "rating": 4.9
+      },
+      {
+        "recipeName": "Pozole",
+        "ingredients": ["Hominy", "Pork", "Chili peppers", "Garlic", "Cabbage"],
+        "cookingMethod": "Simmer hominy and pork with chili peppers, serve with shredded cabbage and lime.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Barbacoa",
+        "ingredients": ["Beef", "Garlic", "Chili peppers", "Bay leaves", "Cilantro"],
+        "cookingMethod": "Slow-cook beef with garlic and spices until tender, serve with tortillas and cilantro.",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "chefPicture": "/images/chef6.jpg",
+    "chefName": "Miguel Ramirez",
+    "yearsOfExperience": 5,
+    "numberOfRecipes": 3,
+    "likes": 800,
+    "bio": "Miguel brings a fresh perspective to Mexican cuisine, infusing his dishes with a creative and youthful flair.",
+    "recipes": [
+      {
+        "recipeName": "Queso Fundido",
+        "ingredients": ["Cheese", "Chorizo", "Onion", "Bell peppers", "Tortillas"],
+        "cookingMethod": "Melt cheese with sautéed chorizo, onions, and peppers, and serve with tortillas.",
+        "rating": 4.7
+      },
+      {
+        "recipeName": "Flautas",
+        "ingredients": ["Tortillas", "Chicken", "Sour cream", "Lettuce", "Tomato"],
+        "cookingMethod": "Roll tortillas with chicken, fry, and serve with lettuce, tomato, and sour cream.",
+        "rating": 4.8
+      },
+      {
+        "recipeName": "Salsa Verde",
+        "ingredients": ["Tomatillos", "Cilantro", "Jalapenos", "Onion", "Garlic"],
+        "cookingMethod": "Blend tomatillos, cilantro, jalapenos, onions, and garlic to create a fresh green salsa.",
+        "rating": 4.9
+      }
+    ]
+  }
+]
