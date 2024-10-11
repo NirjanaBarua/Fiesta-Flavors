@@ -5,7 +5,7 @@ import Chefs from '../Chefs/Chefs';
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-custom-rgba'>
             <Banner></Banner>
             <Chefs></Chefs>
         </div>

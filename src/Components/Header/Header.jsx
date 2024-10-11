@@ -1,17 +1,18 @@
 import { useContext } from "react";
 import { Navigate, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
-
+import './Header.css';
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
+    
     const handlelogOut = () => {
-        logOut()
+        logOut();
+    };
 
-    }
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-custom-rgba px-20">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,66 +31,65 @@ const Header = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-bold">
                             <li>
                                 <NavLink
                                     to="/"
-                                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+                                    className={({ isActive }) => isActive ? "nav-link custom-green" : "nav-link"}>
                                     Home
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to="/about-us"
-                                    className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+                                    className={({ isActive }) => isActive ? "nav-link custom-green" : "nav-link"}>
                                     About Us
                                 </NavLink>
                             </li>
                         </ul>
                     </div>
-                    <a >FiestaFlavors</a>
+                    <h1 className="font">FiestaFlavors</h1>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul id="nav-font" className="menu menu-horizontal px-1 font-bold">
                         <li className="mr-5">
                             <NavLink
                                 to="/"
-                                className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+                                className={({ isActive }) => isActive ? "nav-link custom-green" : "nav-link"}>
                                 Home
                             </NavLink>
                         </li>
                         <li className="mr-5">
                             <NavLink
                                 to="/about-us"
-                                className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+                                className={({ isActive }) => isActive ? "nav-link custom-green" : "nav-link"}>
                                 About Us
                             </NavLink>
                         </li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-
-                    <div >
+                    <div>
                         {
-                            user ?
+                            user ? (
                                 <>
-                                    <span className="mr-3">{user.email}</span>
-                                    <div onClick={handlelogOut} className="btn"><span>Logout</span></div>
+                                    <span className="font-bold mr-3">{user.email}</span>
+                                    <div onClick={handlelogOut} className="font-bold btn bg-custom-green text-white hover:bg-green-800"><span>Logout</span></div>
                                     <Navigate to="/"></Navigate>
-                                </> :
+                                </>
+                            ) : (
                                 <div className="space-x-2">
                                     <Navigate to="/login"></Navigate>
-                                    <NavLink to="/login" className="btn">
+                                    <NavLink to="/login" className="font-bold btn bg-custom-green text-white  hover:bg-green-800 ">
                                         Login
                                     </NavLink>
-                                    <NavLink to="/signup" className="btn">
+                                    <NavLink to="/signup" className="font-bold btn bg-custom-green text-white hover:bg-green-800">
                                         SignUp
                                     </NavLink>
                                 </div>
-
-
+                            )
                         }
-
                     </div>
                 </div>
             </div>

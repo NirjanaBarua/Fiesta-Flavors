@@ -2,9 +2,9 @@
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer footer-center bg-base-300 text-base-content p-4">
-                <aside>
+        <div className="bg-custom-green h-20">
+            <footer className="footer footer-center text-align-center text-white p-4 font-bold ">
+                <aside className="mt-4">
                     <p>Copyright © {new Date().getFullYear()} - All right reserved by Fiesta Flavors</p>
                 </aside>
             </footer>
