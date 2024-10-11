@@ -36,13 +36,9 @@ const Login = () => {
                     {/* Left Section */}
                     <div className="px-6 py-10 lg:w-6/12">
                         <div className="text-center mb-10">
-                            <img
-                                className="mx-auto w-20"
-                                src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
-                                alt="logo"
-                            />
+                            
                             <h4 className="text-xl font-semibold mt-4">
-                                Welcome to FiestaFlavors
+                                Welcome to <span className="log-font">FiestaFlavors</span>
                             </h4>
                         </div>
                         <form onSubmit={handleLogin}>
@@ -77,7 +73,7 @@ const Login = () => {
                             {/* Submit button */}
                             <div className="mb-6 text-center">
                                 <button
-                                    className="btn btn-primary w-full bg-gradient-to-r from-yellow-300 to-orange-500 text-white"
+                                    className="btn btn-primary w-full bg-custom-green  text-white hover:bg-green-800"
                                     type="submit"
                                 >
                                     Log in
@@ -92,7 +88,7 @@ const Login = () => {
                                 <p className="mb-0 text-sm">Don't have an account?</p>
                                 <button
                                     type="button"
-                                    className="btn btn-outline btn-warning" 
+                                    className="border-2 border-custom-green text-custom-green hover:bg-custom-green hover:text-white focus:outline-none px-4 py-2 rounded" 
                                     onClick={handlesignupbtn}
                                 >
                                     SignUp
@@ -103,13 +99,13 @@ const Login = () => {
 
                     {/* Right Section */}
                     <div
-                        className="flex items-center justify-center bg-gradient-to-r from-yellow-300 to-orange-500 lg:w-6/12 text-white"
+                        className="flex items-center justify-center bg-custom-green lg:w-6/12 text-white"
                     >
                         <div className="px-6 py-10 text-center">
-                            <h4 className="text-xl font-semibold mb-6">We are more than just a company</h4>
-                            <p className="text-sm">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
+                        <h4 className="text-xl font-semibold mb-6">More Than Just Recipes, We Share a Culture</h4>
+                                <p className="text-sm">
+                                    FiestaFlavors is your ultimate destination for authentic Mexican recipes, celebrating the rich culinary heritage and vibrant flavors of Mexico
+                                </p>
                         </div>
                     </div>
                 </div>

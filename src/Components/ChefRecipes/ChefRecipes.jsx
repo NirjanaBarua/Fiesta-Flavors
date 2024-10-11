@@ -36,11 +36,11 @@ const ChefRecipes = () => {
             <h1 className="text-center text-2xl font-bold mt-6 mb-6">Featured Recipes</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-20 ">
             {chef.recipes.map((recipe, index) => (
-                <div key={index} className=" flex flex-col bg-white shadow-sm border border-slate-200  hover:bg-slate-300">
+                <div key={index} className=" flex flex-col bg-white shadow-sm border border-slate-200  hover:bg-white-300">
                     
                         <figure>
                             <img
-                                src={chef.chefPicture}
+                                src={recipe.recipePicture}
                                 alt="" className="w-full h-64 " />
                         </figure>
                         <div className="card-body ">
@@ -54,7 +54,7 @@ const ChefRecipes = () => {
                             <p><strong>Cooking Method:</strong> {recipe.cookingMethod}</p>
                             <p><strong>Rating:</strong> {recipe.rating}</p>
                             <div className="card-actions justify-center">
-                                <button onClick={()=>handleFavorite(recipe.recipeName)} className="btn btn-primary">Favorite</button>
+                                <button onClick={()=>handleFavorite(recipe.recipeName)} className="btn bg-custom-green text-white  hover:bg-green-800">Favorite</button>
                                 <ToastContainer></ToastContainer>
                             </div>
                         </div>
