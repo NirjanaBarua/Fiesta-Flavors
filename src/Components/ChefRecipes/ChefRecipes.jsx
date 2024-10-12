@@ -14,7 +14,7 @@ const ChefRecipes = () => {
     }
     return (
         // Chefs Details
-        <div>
+        <div className="bg-custom-rgba">
             <div className="card lg:card-side bg-base-100 shadow-xl lg:ml-20 lg:mr-20 sm:ml-5 sm:mr-5">
                 <figure className="w-full  h-[32rem] ">
                     <div className=" w-full h-full  ">
@@ -25,18 +25,21 @@ const ChefRecipes = () => {
                     </div>
                 </figure>
                 <div className="card-body w-full lg:w-1/2 h-96">
-                    <h2 className="card-title">{chef.chefName}</h2>
+                <div className="mt-10">
+                <h2 className="card-title  text-xl font-bold text-slate-700 uppercase mb-4">{chef.chefName}</h2>
                     <p>{chef.bio}</p>
-                    <p>Experience:{chef.yearsOfExperience} years</p>
-                    <p>Number of Recipes:{chef.numberOfRecipes}</p>
-                    <p>Likes:{chef.likes}</p>
+                    <p className="mt-4" ><span className="text-sm font-bold  uppercase ">Experience: </span>{chef.yearsOfExperience} years</p>
+                    <p ><span className="text-sm font-bold  uppercase">Number of Recipes: </span>{chef.numberOfRecipes}</p>
+                    <p ><span className="text-sm font-bold  uppercase">Likes: </span>{chef.likes}</p>
+                </div>
+                   
                 </div>
             </div>
             {/* Featured Recipes */}
             <h1 className="text-center text-2xl font-bold mt-6 mb-6">Featured Recipes</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-20 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-20">
             {chef.recipes.map((recipe, index) => (
-                <div key={index} className=" flex flex-col bg-white shadow-sm border border-slate-200  hover:bg-white-300">
+                <div key={index} className=" flex flex-col bg-white shadow-sm border border-slate-200 ">
                     
                         <figure>
                             <img

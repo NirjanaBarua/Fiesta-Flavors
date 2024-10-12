@@ -49,7 +49,7 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    <h1 className="font">FiestaFlavors</h1>
+                    <h1 className="fontt">FiestaFlavors</h1>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul id="nav-font" className="menu menu-horizontal px-1 font-bold">

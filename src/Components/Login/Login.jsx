@@ -21,7 +21,7 @@ const Login = () => {
         })
         .catch(error=>{
             console.log(error);
-            
+            alert('Incorrect email or password');
         })
     }
 
@@ -31,7 +31,7 @@ const Login = () => {
     }
     return (
         <div className="min-h-screen flex items-center justify-center bg-neutral-200 dark:bg-neutral-700">
-            <div className="container max-w-2xl">
+            <div className="container max-w-3xl md:mt-8 mb-8 sm:mt-8 mb-8">
                 <div className="rounded-lg bg-white shadow-lg dark:bg-neutral-800 overflow-hidden lg:flex">
                     {/* Left Section */}
                     <div className="px-6 py-10 lg:w-6/12">
