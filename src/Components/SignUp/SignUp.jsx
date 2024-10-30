@@ -5,7 +5,7 @@ import { FaGoogle } from "react-icons/fa";
 
 const SignUp = () => {
     //create user
-    const { createUser } = useContext(AuthContext);
+    const { createUser,signInWithGoogle } = useContext(AuthContext);
 
     const [signuperror, setSignUpError] = useState('');
     const [success, setSuccess] = useState('');
@@ -35,6 +35,18 @@ const SignUp = () => {
                 setSignUpError(error.message);
             })
     }
+
+    const handleGoogleSignIn = () => {
+        signInWithGoogle()
+            .then(result => {
+                console.log(result.user);
+                
+            })
+            .catch(error => {
+                console.log(error);
+            })
+    }
+
     const navigate = useNavigate();
 
     const handleloginbtn = () => {
@@ -131,7 +143,7 @@ const SignUp = () => {
 
                                 {/* Sign Up with Google button */}
                                 <div className="mb-6 text-center">
-                                    <button
+                                    <button onClick={handleGoogleSignIn}
                                         className="btn btn-outline w-full flex items-center justify-center border-gray-300 hover:bg-custom-green"
 
                                         type="button"

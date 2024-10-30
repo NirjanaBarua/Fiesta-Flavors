@@ -1,21 +1,25 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Navigate, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
 import './Header.css';
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
-    
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
     const handlelogOut = () => {
         logOut();
     };
 
+    const toggleDropDown=()=>{
+        setIsDropdownOpen(!isDropdownOpen);
+    }
     return (
         <div>
-            <div className="navbar bg-custom-rgba px-20">
+            <div className="navbar bg-custom-rgba lg:px-20 ">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" onClick={toggleDropDown}className="btn btn-ghost lg:hidden">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
@@ -29,9 +33,10 @@ const Header = () => {
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
-                        <ul
+                        { isDropdownOpen && (
+                            <ul
                             tabIndex={0}
-                            
+
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-bold">
                             <li>
                                 <NavLink
@@ -47,7 +52,34 @@ const Header = () => {
                                     About Us
                                 </NavLink>
                             </li>
+                            <div>
+                                {
+                                    user ? (
+                                        <>
+                                            <span className="font-bold p-2">{user.email}</span>
+                                            <div onClick={handlelogOut} className="font-bold btn bg-custom-green text-white hover:bg-green-800"><span>Logout</span></div>
+                                            <Navigate to="/"></Navigate>
+                                        </>
+                                    ) : (
+                                        <div >
+                                            <li>
+                                                <Navigate to="/login"></Navigate>
+                                                <NavLink to="/login" className="font-bold btn bg-custom-green text-white  hover:bg-green-800 ">
+                                                    Login
+                                                </NavLink>
+                                                <NavLink to="/signup" className="font-bold btn bg-custom-green text-white hover:bg-green-800">
+                                                    SignUp
+                                                </NavLink>
+                                            </li>
+
+                                        </div>
+                                    )
+                                }
+                            </div>
                         </ul>
+                        )}
+                        
+
                     </div>
                     <h1 className="fontt">FiestaFlavors</h1>
                 </div>
@@ -69,7 +101,7 @@ const Header = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end hidden lg:flex">
                     <div>
                         {
                             user ? (

@@ -25,10 +25,10 @@ const ChefRecipes = () => {
                     </div>
                 </figure>
                 <div className="card-body w-full lg:w-1/2 h-96">
-                <div className="mt-10">
-                <h2 className="card-title  text-xl font-bold text-slate-700 uppercase mb-4">{chef.chefName}</h2>
+                <div className="lg:mt-10">
+                <h2 className="card-title  text-xl font-bold text-slate-700 uppercase lg:mb-4">{chef.chefName}</h2>
                     <p>{chef.bio}</p>
-                    <p className="mt-4" ><span className="text-sm font-bold  uppercase ">Experience: </span>{chef.yearsOfExperience} years</p>
+                    <p className="mt-4 " ><span className="text-sm font-bold  uppercase ">Experience: </span>{chef.yearsOfExperience} years</p>
                     <p ><span className="text-sm font-bold  uppercase">Number of Recipes: </span>{chef.numberOfRecipes}</p>
                     <p ><span className="text-sm font-bold  uppercase">Likes: </span>{chef.likes}</p>
                 </div>
@@ -37,7 +37,7 @@ const ChefRecipes = () => {
             </div>
             {/* Featured Recipes */}
             <h1 className="text-center text-2xl font-bold mt-6 mb-6">Featured Recipes</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-20 sm:w-full">
             {chef.recipes.map((recipe, index) => (
                 <div key={index} className=" flex flex-col bg-white shadow-sm border border-slate-200 ">
                     

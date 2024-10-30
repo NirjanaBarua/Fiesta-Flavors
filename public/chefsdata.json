@@ -6,7 +6,7 @@
     "yearsOfExperience": 8,
     "numberOfRecipes": 3,
     "likes": 1200,
-    "bio": "Maria is known for her mastery of traditional Mexican flavors, combining classic techniques with modern twists. She has traveled extensively through Mexico, learning authentic regional cooking methods. Her passion for using fresh, locally sourced ingredients is reflected in every dish she creates. Maria's culinary journey is driven by her desire to share her heritage and bring the vibrant flavors of Mexico to life in new and exciting ways.",
+    "bio": "Maria is known for her mastery of traditional Mexican flavors, combining classic techniques with modern twists. She has traveled extensively through Mexico, learning authentic regional cooking methods. Her passion for using fresh, locally sourced ingredients is reflected in every dish she creates.",
     "recipes": [
       {
         "recipePicture": "/images/tacos.jpg",
@@ -38,7 +38,7 @@
     "yearsOfExperience": 15,
     "numberOfRecipes": 3,
     "likes": 950,
-    "bio": "Sofia specializes in vibrant street food, bringing the authentic taste of Mexico's markets to your table. Growing up in a family of street vendors, Sofia learned the art of creating mouth-watering, quick meals from a young age. She has a keen eye for blending bold flavors, and her dishes are a celebration of the lively, bustling streets of Mexico. Whether it’s a simple tostada or a complex quesadilla, Sofia always aims to serve dishes that are full of life and zest.",
+    "bio": "Sofia specializes in vibrant street food, bringing the authentic taste of Mexico's markets to your table. Growing up in a family of street vendors, Sofia learned the art of creating mouth-watering, quick meals from a young age. She has a keen eye for blending bold flavors, and her dishes are a celebration of the lively, bustling streets of Mexico.",
     "recipes": [
       {
         "recipePicture": "/images/tinga.jpg",
@@ -70,7 +70,7 @@
     "yearsOfExperience": 12,
     "numberOfRecipes": 3,
     "likes": 1800,
-    "bio": "Isabella is a celebrated chef, known for her signature mole and dedication to preserving indigenous recipes. She has spent years studying ancient cooking techniques passed down through generations, and her kitchen is a tribute to Mexico’s rich culinary history. Isabella believes that every dish tells a story, and her recipes are an invitation to experience the deep, complex flavors of Mexico’s indigenous cuisine. Her mole poblano is renowned for its deep richness, a perfect harmony of sweet and savory notes.",
+    "bio": "Isabella is a celebrated chef, known for her signature mole and dedication to preserving indigenous recipes. She has spent years studying ancient cooking techniques passed down through generations, and her kitchen is a tribute to Mexico’s rich culinary history. Isabella believes that every dish tells a story.",
     "recipes": [
       {
         "recipePicture": "/images/molejpg.jpg",
@@ -102,7 +102,7 @@
     "yearsOfExperience": 10,
     "numberOfRecipes": 3,
     "likes": 1100,
-    "bio": "Luis is a seafood expert, combining fresh ingredients with bold Mexican spices to create unforgettable dishes. Growing up near the coast, Luis has a deep love for the ocean and its bounty. His dishes celebrate the fresh, bright flavors of Mexican coastal cuisine, and he’s always experimenting with new ways to elevate traditional seafood recipes. Whether it’s ceviche or tacos de pescado, Luis’s dishes are a perfect balance of freshness and spice, capturing the essence of the sea.",
+    "bio": "Luis is a seafood expert, combining fresh ingredients with bold Mexican spices to create unforgettable dishes. Growing up near the coast, Luis has a deep love for the ocean and its bounty. His dishes celebrate the fresh, bright flavors of Mexican coastal cuisine, and he’s always experimenting with new ways to elevate traditional seafood recipes.",
     "recipes": [
       {
         "recipePicture": "/images/ceviche.jpg",
@@ -134,7 +134,7 @@
     "yearsOfExperience": 20,
     "numberOfRecipes": 3,
     "likes": 2500,
-    "bio": "With two decades of experience, Jorge excels in traditional Mexican cuisine, from tamales to chiles en nogada. Jorge has spent his career refining the classics of Mexican cuisine, and his attention to detail is unmatched. He believes in staying true to traditional methods while embracing innovation where it enhances the dish. Jorge’s dedication to perfecting every element of his cooking has made him one of the most respected chefs in the Mexican culinary scene.",
+    "bio": "With two decades of experience, Jorge excels in traditional Mexican cuisine, from tamales to chiles en nogada. Jorge has spent his career refining the classics of Mexican cuisine, and his attention to detail is unmatched. He believes in staying true to traditional methods while embracing innovation where it enhances the dish.",
     "recipes": [
       {
         "recipePicture": "/images/nogada.jpg",
@@ -166,7 +166,7 @@
     "yearsOfExperience": 5,
     "numberOfRecipes": 3,
     "likes": 800,
-    "bio": "Miguel brings a fresh perspective to Mexican cuisine, infusing his dishes with a creative and youthful flair. As a young chef, Miguel isn’t afraid to push the boundaries of traditional cooking, mixing unexpected ingredients and modern techniques. He draws inspiration from global cuisines and adds a contemporary twist to Mexican favorites. Miguel’s culinary style is vibrant, playful, and full of flavor, appealing to a new generation of food lovers.",
+    "bio": "Miguel brings a fresh perspective to Mexican cuisine, infusing his dishes with a creative and youthful flair. As a young chef, Miguel isn’t afraid to push the boundaries of traditional cooking, mixing unexpected ingredients and modern techniques. He draws inspiration from global cuisines and adds a contemporary twist to Mexican favorites.n",
     "recipes": [
       {
         "recipePicture": "/images/queso.jpg",
