@@ -30,6 +30,6 @@ FiestaFlavors is a unique recipe website dedicated exclusively to Mexican cuisin
 - Firebase Authentication for login and registration
 
 # Demo
-Check out the live demo here.
+Check out the live demo here: https://fiesta-flavors.web.app/
 
 
