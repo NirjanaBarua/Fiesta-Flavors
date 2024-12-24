@@ -21,8 +21,12 @@ FiestaFlavors is a unique recipe website dedicated exclusively to Mexican cuisin
 2. Restricts access to the recipes page for unauthenticated users.
 
 # Technologies Used
-###
-Frontend: React, Tailwind CSS
-Backend: Firebase Authentication for login and registration
+
+### Frontend:
+- React
+- Tailwind CSS
+
+### Backend:
+- Firebase Authentication for login and registration
 
 
