@@ -19,8 +19,10 @@ FiestaFlavors is a unique recipe website dedicated exclusively to Mexican cuisin
 ### Authentication:
 1. Firebase Authentication for login/logout.  
 2. Restricts access to the recipes page for unauthenticated users.
-```
 
-In markdown, the double spaces at the end of a line (`  `) force a line break. This ensures that each point in the serial list appears on a new line. Copy and paste this directly into your README.
+# Technologies Used
+###
+Frontend: React, Tailwind CSS
+Backend: Firebase Authentication for login and registration
 
 
